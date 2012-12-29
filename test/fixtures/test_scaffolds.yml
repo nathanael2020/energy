@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  Var1: MyString
+  Var2: MyString
+  Var3: 1
+
+two:
+  Var1: MyString
+  Var2: MyString
+  Var3: 1
