@@ -7,9 +7,14 @@ gem 'rails', '3.2.9'
 
 gem 'bootstrap-sass', '2.1'
 
+gem 'pg', '0.14.1'
+
 group :development, :test do
-	gem 'sqlite3'
 	gem 'rspec-rails', '2.11.0'
+end
+
+group :development do
+	gem 'annotate', '2.5.0'
 end
 
 group :test do
@@ -45,6 +50,3 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-group :production do
-  gem 'pg', '0.12.2'
-end
